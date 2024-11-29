@@ -89,7 +89,7 @@ def add_bg_from_local(image_file):
 add_bg_from_local('Background.jpg')  # Use a high-quality background image
 
 # Read the CSS file for additional styling
-with open("G:\VS_Code\ATS_SCORE_CHECKER_PROJECT\style.css") as f:
+with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Extract text from uploaded PDF file
