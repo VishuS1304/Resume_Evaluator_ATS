@@ -1,0 +1,116 @@
+/* Gradient background */
+body {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b, #6a82fb, #fc5c7d);
+    background-size: 400% 400%;
+    animation: gradient-bg 15s ease infinite;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Title styling with color-changing effect */
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    /* animation: color-change 10s infinite alternate; */
+    font-family: 'Times New Roman', Times, serif;
+     /* Rounded border properties */
+     border: 1px solid #ffffff; /* White border */
+     border-radius: 10px; /* Rounded corners */
+     padding: 8px; /* Padding inside the border */
+
+}
+
+/* Subtitle styling with subtle color change */
+/* Subtitle styling with subtle color change and rounded border */
+.subtitle {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    background: radial-gradient(
+        circle at 100%,
+        #c0c0c0,  /* Light Grey */
+        #a8a8a8 50%,  /* Mid Grey */
+        #909090 75%,  /* Dark Grey */
+        #b0b0b0 75%  /* Silver */
+    );
+    font-weight: 600;
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animatedTextGradient 1.5s linear infinite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes animatedTextGradient {
+    to {
+        background-position: 200% center;
+    }
+}
+
+/* Footer styling */
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: #cccccc;
+}
+
+/* Gradient background animation */
+@keyframes gradient-bg {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+/* Color-changing animation for title */
+@keyframes color-change {
+    0% { color: #ffffff; } /* White */
+    25% { color: #00b4d8; } /* Deep Sky Blue */
+    50% { color: #90e0ef; } /* Light Cyan */
+    75% { color: #f77f00; } /* Burnt Orange */
+    100% { color: #ffffff; } /* White */
+}
+
+/* Subtle color change for subtitle */
+@keyframes color-change-subtitle {
+    0% { color: #eeeeee; } /* Light Gray */
+    25% { color: #add8e6; } /* Light Blue */
+    50% { color: #98fb98; } /* Pale Green */
+    75% { color: #ffa07a; } /* Light Salmon */
+    100% { color: #eeeeee; } /* Light Gray */
+}
+.glassmorphism-block {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    color: #eeeeee;
+}
+
+span {
+    background: radial-gradient(
+      circle at 100%,
+      #b2a8fd,
+      #8678f9 50%,
+      #c7d2fe 75%,
+      #9a8dfd 75%
+    );
+    font-weight: 600;
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animatedTextGradient 1.5s linear infinite;
+  }
+  
+  @keyframes animatedTextGradient {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
