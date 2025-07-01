@@ -1,8 +1,6 @@
 streamlit
-google-generativeai
-PyPDF2
-python-docx
 python-dotenv
+PyPDF2
 docx2txt
 plotly
-pandas
+langchain-nvidia-ai-endpoints
