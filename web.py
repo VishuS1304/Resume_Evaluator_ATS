@@ -121,7 +121,7 @@ def input_txt_text(uploaded_file):
 
 # Get response from Gemini API
 def get_gemini_response(input_text):
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-2.5-flash')
     response = model.generate_content(input_text)
     return response.text
 
@@ -390,3 +390,4 @@ footer = f"""
 """
 
 st.markdown(footer, unsafe_allow_html=True)
+
