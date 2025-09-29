@@ -3,4 +3,10 @@ python-dotenv
 PyPDF2
 docx2txt
 plotly
-langchain-nvidia-ai-endpoints
+google-generativeai
+python-docx
+Pillow
+pdf2image
+plotly
+pandas
+
